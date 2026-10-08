@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Say hello
         run: echo "hello world"
+      - name: python version
+        run: python --version
 
       - name: Say hello username
         run: echo "hello $USER"
