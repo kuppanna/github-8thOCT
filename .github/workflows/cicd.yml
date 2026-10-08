@@ -6,12 +6,12 @@ jobs:
     run-on: ubuntu-latest
     steps:
       - name: checkout code
-      - step: echo "code clone from github"
+       run: echo "code clone from github"
    builds:
      run-on: ubuntu-latest
     steps:
       - name: Build docker container
-        steps: echo "Docker container build"
+        run: echo "Docker container build"
      test:
        run-on: ubuntu-latest
       steps:
